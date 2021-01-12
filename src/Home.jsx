@@ -4,8 +4,7 @@ import BlogList from './BlogList';
 function Home() {
 
  const [blogs,setBlogs] = useState(null);
-
-const [name,setName] = useState('crookzart');
+ const [isPending, setIsPending] = useState(true);
 
 // const handleDelete = (id) => {
 //     const newBlog = blogs.filter((blog) => blog.id !== id);
@@ -19,15 +18,15 @@ useEffect(() => {
     })
     .then(data => {
         setBlogs(data);
+        setIsPending(false);
     })
  
 },[]);
 
     return (
         <div className="home">
-            {
-              blogs &&  <BlogList blogs={blogs} title="All Blogs!"/>
-            }
+            {isPending && <div>Loading.......</div>}
+            {blogs &&  <BlogList blogs={blogs} title="All Blogs!"/>}
         </div>
     )
 }
