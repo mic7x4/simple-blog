@@ -50,3 +50,6 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+.blog__preview a{
+  text-decoration: none;
+}
