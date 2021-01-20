@@ -1,22 +1,40 @@
 {
-    "blogs":[
-        {
-            "title":"My first Blog",
-            "body":"Why do we use it? It is a long established that a reader will be distracted ",
-            "author":"Crook",
-            "id":1
-        },
-        {
-            "title":"Opening Party!",
-            "body":"Why do we use it? It is a long established that a reader will be distracted ",
-            "author":"Black Hustle",
-            "id":2
-        },
-        {
-            "title":"Learning React",
-            "body":"Why do we use it? It is a long established that a reader will be distracted ",
-            "author":"Ninja",
-            "id":3
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "body": "Why do we use it? It is a long established that a reader will be distracted ",
+      "author": "Crook",
+      "id": 1
+    },
+    {
+      "title": "Opening Party!",
+      "body": "Why do we use it? It is a long established that a reader will be distracted ",
+      "author": "Black Hustle",
+      "id": 2
+    },
+    {
+      "title": "Learning React",
+      "body": "Why do we use it? It is a long established that a reader will be distracted ",
+      "author": "Ninja",
+      "id": 3
+    },
+    {
+      "title": "Welcome",
+      "body": "This is what comes in my head when i got no thing to do",
+      "author": "crook",
+      "id": 4
+    },
+    {
+      "title": "New Blog",
+      "body": "New Blog",
+      "author": "crook",
+      "id": 5
+    },
+    {
+      "title": "Another One",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "author": "netphantom",
+      "id": 6
+    }
+  ]
 }
